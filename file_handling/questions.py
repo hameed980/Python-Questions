@@ -1,7 +1,6 @@
 '''
 1.)Write to a File
 Write "Hello, World!" to a file named hello.txt.
-
 2.)Read from a File
 Read the contents of hello.txt and print it.
 3.)Append to a File
