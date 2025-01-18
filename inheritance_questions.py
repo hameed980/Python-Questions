@@ -5,6 +5,16 @@ print("hello world")
 # Single inheritance is when a child class inherits from only one parent class.
 # Questions:
 # 1.)Write a Python program where a Person class has a method to display name and age, and a Student class inherits it.
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def display_info(self):
+        print(f"name {self.name} age {self.age}")
+class Student(Person):
+    pass
+obj = Student("hameed",22)
+obj.display_info()
 # 2.)Create a parent class Animal with a method make_sound. The child class Dog should inherit from Animal and override the make_sound method to bark.
 # 3.)Implement a class Vehicle with a method details. Create a subclass Car that inherits Vehicle and adds its own attribute model.
 # 4.)Write a program to demonstrate how private members of the parent class are inaccessible to the child class.
