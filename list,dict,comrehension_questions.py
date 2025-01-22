@@ -11,6 +11,7 @@
 # 9. Create a list of tuples (number, square).
 # 10. Generate a list of prime numbers between 2 and 20.
 
+
 # Dictionary Comprehension Questions:
 # 1. Create a dictionary of squares for numbers 1 to 5.
 # 2. Create a dictionary from two lists: keys and values.
