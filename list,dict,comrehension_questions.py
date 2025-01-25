@@ -1,6 +1,9 @@
-'''
+
 # List Comprehension Questions:
 # 1. Create a list of squares of numbers from 1 to 10.
+# QUESTION 1 (SOLUTION):
+li = [i**2 for i in range(1,11)]
+print(li)
 # 2. Generate a list of even numbers between 1 and 20.
 # 3. Create a list of odd numbers between 1 and 15.
 # 4. Filter a list to include only strings starting with "a".
