@@ -172,8 +172,11 @@ print(d1 == d2)
 # value in {"a": 10, "b": 20, "c": 5}.
 # QUESTION22: (SOLUTION)
 original_dict = {"a": 10, "b": 20, "c": 5}
-min_val = min(original_dict,key=original_dict.get)
-print(min_val,original_dict[min_val])
+new = original_dict['a']
+for i in original_dict:
+    if i< new:
+        new = i
+print(i)
 
 # Q1.)
 # QUESTION 1: (SOLUTION)
