@@ -5,6 +5,8 @@
 li = [i**2 for i in range(1,11)]
 print(li)
 # 2. Generate a list of even numbers between 1 and 20.
+list1 = [i for i in range(1,21) if i%2 ==0]
+print(list1)
 # 3. Create a list of odd numbers between 1 and 15.
 # 4. Filter a list to include only strings starting with "a".
 # 5. Create a list of the lengths of each word in a given sentence.
