@@ -12,6 +12,10 @@ print(list1)
 odd_num = [i for i in range(1,15) if i%2 !=0]
 print(odd_num)
 # 4. Filter a list to include only strings starting with "a".
+words = ["apple", "banana", "apricot", "cherry"]
+filter_word = [word for word in words if word[0] == ('a')]
+print(filter_word)
+
 # 5. Create a list of the lengths of each word in a given sentence.
 # 6. Generate a list of numbers divisible by 3 and 5 from 1 to 50.
 # 7. Flatten a nested list.
