@@ -17,6 +17,10 @@ filter_word = [word for word in words if word[0] == ('a')]
 print(filter_word)
 
 # 5. Create a list of the lengths of each word in a given sentence.
+sentence = 'Python is fantastic'
+length_word = [len(word) for word in sentence.split()]
+print(length_word)
+
 # 6. Generate a list of numbers divisible by 3 and 5 from 1 to 50.
 # 7. Flatten a nested list.
 # 8. Convert all words in a list to uppercase.
