@@ -22,6 +22,8 @@ length_word = [len(word) for word in sentence.split()]
 print(length_word)
 
 # 6. Generate a list of numbers divisible by 3 and 5 from 1 to 50.
+generating_no = [num for num in range(1,51) if num%3 == 0 and  num%5==0]
+print(generating_no)
 # 7. Flatten a nested list.
 # 8. Convert all words in a list to uppercase.
 # 9. Create a list of tuples (number, square).
