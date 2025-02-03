@@ -24,7 +24,12 @@ print(length_word)
 # 6. Generate a list of numbers divisible by 3 and 5 from 1 to 50.
 generating_no = [num for num in range(1,51) if num%3 == 0 and  num%5==0]
 print(generating_no)
+
 # 7. Flatten a nested list.
+nested_list = [[1, 2], [3, 4], [5, 6]]
+flatten_list = [column for row in nested_list  for column in row]
+print(flatten_list)
+
 # 8. Convert all words in a list to uppercase.
 # 9. Create a list of tuples (number, square).
 # 10. Generate a list of prime numbers between 2 and 20.
