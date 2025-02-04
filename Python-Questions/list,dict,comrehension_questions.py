@@ -30,7 +30,12 @@ nested_list = [[1, 2], [3, 4], [5, 6]]
 flatten_list = [column for row in nested_list  for column in row]
 print(flatten_list)
 
+
 # 8. Convert all words in a list to uppercase.
+words = ["Python", "syntax", "is", "very", "easy."]
+conveting_uppercase = [word.upper() for word in words ]
+print(conveting_uppercase)
+
 # 9. Create a list of tuples (number, square).
 # 10. Generate a list of prime numbers between 2 and 20.
 
