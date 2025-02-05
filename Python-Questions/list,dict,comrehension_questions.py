@@ -37,6 +37,9 @@ conveting_uppercase = [word.upper() for word in words ]
 print(conveting_uppercase)
 
 # 9. Create a list of tuples (number, square).
+
+tuples_no = [(n,n**2)for n in range(1,11)]
+print(tuples_no)
 # 10. Generate a list of prime numbers between 2 and 20.
 
 
