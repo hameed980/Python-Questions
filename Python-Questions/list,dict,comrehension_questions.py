@@ -40,7 +40,10 @@ print(conveting_uppercase)
 
 tuples_no = [(n,n**2)for n in range(1,11)]
 print(tuples_no)
+
 # 10. Generate a list of prime numbers between 2 and 20.
+prime_no = [n for n in range(2,21) if n%2 !=0 ]
+print(prime_no)
 
 
 # Dictionary Comprehension Questions:
