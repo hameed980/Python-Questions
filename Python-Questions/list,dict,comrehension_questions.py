@@ -47,7 +47,11 @@ print(prime_no)
 
 
 # Dictionary Comprehension Questions:
+
 # 1. Create a dictionary of squares for numbers 1 to 5.
+square_dict = {n:n**2 for n in range(1,6)}
+print(square_dict)
+
 # 2. Create a dictionary from two lists: keys and values.
 # 3. filter a dictionary to include only items with values greater than 2.
 # 4. Create a dictionary with numbers as keys and their cubes as values.
