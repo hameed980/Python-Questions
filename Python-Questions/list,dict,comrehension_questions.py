@@ -53,6 +53,11 @@ square_dict = {n:n**2 for n in range(1,6)}
 print(square_dict)
 
 # 2. Create a dictionary from two lists: keys and values.
+keys = ["name",'age','phone']
+values = ['abdul',19,223344]
+compre = {k:v for k,v in zip(keys,values)}
+print(compre)
+
 # 3. filter a dictionary to include only items with values greater than 2.
 # 4. Create a dictionary with numbers as keys and their cubes as values.
 # 5. Invert a dictionary (swap keys and values).
