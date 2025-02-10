@@ -59,6 +59,10 @@ compre = {k:v for k,v in zip(keys,values)}
 print(compre)
 
 # 3. filter a dictionary to include only items with values greater than 2.
+values = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+filtered_values = {k:v for k,v in values.items() if v >2 }
+print(filtered_values)
+
 # 4. Create a dictionary with numbers as keys and their cubes as values.
 # 5. Invert a dictionary (swap keys and values).
 # 6. Create a dictionary with characters and their ASCII values.
