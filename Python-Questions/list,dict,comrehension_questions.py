@@ -64,6 +64,9 @@ filtered_values = {k:v for k,v in values.items() if v >2 }
 print(filtered_values)
 
 # 4. Create a dictionary with numbers as keys and their cubes as values.
+cubic_values = {i:i**3 for i in range(1,10)}
+print(cubic_values)
+
 # 5. Invert a dictionary (swap keys and values).
 # 6. Create a dictionary with characters and their ASCII values.
 # 7. Merge two dictionaries with common keys summed.
