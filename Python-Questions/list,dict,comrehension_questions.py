@@ -68,6 +68,10 @@ cubic_values = {i:i**3 for i in range(1,10)}
 print(cubic_values)
 
 # 5. Invert a dictionary (swap keys and values).
+dict_values = {'a':10,'b':20,'c':30,'d':40}
+swaping = {v:k for k,v in dict_values.items()}
+print(swaping)
+
 # 6. Create a dictionary with characters and their ASCII values.
 # 7. Merge two dictionaries with common keys summed.
 # 8. Create a dictionary with numbers and their parity (even/odd).
