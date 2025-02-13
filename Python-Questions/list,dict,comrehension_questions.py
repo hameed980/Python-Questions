@@ -73,6 +73,9 @@ swaping = {v:k for k,v in dict_values.items()}
 print(swaping)
 
 # 6. Create a dictionary with characters and their ASCII values.
+ascii_dict = {char: ord(char) for char in 'abc'}
+print(ascii_dict)
+
 # 7. Merge two dictionaries with common keys summed.
 # 8. Create a dictionary with numbers and their parity (even/odd).
 # 9. Count the frequency of each character in a string.
