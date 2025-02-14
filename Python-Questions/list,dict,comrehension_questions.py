@@ -77,6 +77,14 @@ ascii_dict = {char: ord(char) for char in 'abc'}
 print(ascii_dict)
 
 # 7. Merge two dictionaries with common keys summed.
+dict1 = {'name': 'abdul', 'age': 18, 'phone': 1234}
+dict2 = {'full_name': 'abdul', 'age': 18, 'phone': 12344567}
+res = {k: (dict1.get(k, 0) if isinstance(dict1.get(k, 0), (int, float)) else 0) + 
+           (dict2.get(k, 0) if isinstance(dict2.get(k, 0), (int, float)) else 0)
+       for k in set(dict1) | set(dict2)}
+
+print(res)
+
 # 8. Create a dictionary with numbers and their parity (even/odd).
 # 9. Count the frequency of each character in a string.
 # 10. Create a dictionary grouping numbers by their remainder when divided by 3.
