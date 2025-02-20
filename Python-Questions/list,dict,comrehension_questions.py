@@ -86,6 +86,8 @@ res = {k: (dict1.get(k, 0) if isinstance(dict1.get(k, 0), (int, float)) else 0) 
 print(res)
 
 # 8. Create a dictionary with numbers and their parity (even/odd).
+even_odd_parity = {i:'even' if i%2 == 0  else 'odd' for i in range(10) }
+print(even_odd_parity)
 # 9. Count the frequency of each character in a string.
 # 10. Create a dictionary grouping numbers by their remainder when divided by 3.
 # '''
