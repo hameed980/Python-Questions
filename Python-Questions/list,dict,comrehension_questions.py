@@ -97,3 +97,7 @@ print(freq)
 
 # 10. Create a dictionary grouping numbers by their remainder when divided by 3.
 # '''
+nums = range(1, 10)
+grouped = {r: [x for x in nums if x % 3 == r] for r in range(3)}
+print(grouped)
+
